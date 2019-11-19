@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a1f243d8-f2be-4e26-bc8a-c8213883ff52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chatserver/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatserver/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +40,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chatserver/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-597">
+            <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="901" />
     <option name="height" value="1027" />
@@ -181,11 +184,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2408000" />
+    <option name="totallyTimeSpent" value="3072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="901" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -198,11 +200,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.39144385" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.39144385" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47272727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chatserver/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-597">
+        <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
