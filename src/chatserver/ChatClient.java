@@ -1,9 +1,11 @@
 package chatserver;
 import java.io.*;
+import java.net.InetAddress;
 import java.net.Socket;
+import java.net.UnknownHostException;
 
 public class ChatClient implements Runnable{
-    private String host;
+    private InetAddress hostip;
     private int    serverport;
     private String username;
     private Socket sock;
@@ -11,14 +13,16 @@ public class ChatClient implements Runnable{
     private OutputStream    outstream;
     private BufferedReader  reader;
 
-    public ChatClient(String host, int serverport, String username) {
-        this.host = host;
+    public ChatClient(int serverport, String username) {
+        try {
+            this.hostip = InetAddress.getByName("localhost");
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
         this.serverport = serverport;
         this.username = username;
-        this.host = host;
-
         try {
-            this.sock = new Socket(host, serverport);
+            this.sock = new Socket(this.hostip, serverport);
             this.outstream = sock.getOutputStream();
             this.instream = sock.getInputStream();
             this.reader = new BufferedReader(new InputStreamReader(this.instream));
@@ -41,7 +45,7 @@ public class ChatClient implements Runnable{
 
     @Override
     public void run() {
-        System.out.println("Test");
+
     }
     public int getServerport() {
         return serverport;

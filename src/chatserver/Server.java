@@ -1,5 +1,4 @@
 package chatserver;
-import sun.jvm.hotspot.runtime.Threads;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -8,15 +7,17 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class Server {
-    // private ServerSocket serversock;
+    private ServerSocket serversock;
     private DataInputStream inputStream;
     private ArrayList<ChatClient> clients;
 
     public Server(int port) {
-    }
+        try {
+            this.serversock = new ServerSocket(port);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-    public static void main(String[] args) throws IOException {
-        Server.run();
     }
 
     /*
@@ -31,17 +32,13 @@ public class Server {
 
     */
 
-    public static void run() throws IOException {
-
-        ServerSocket serversock = new ServerSocket(10000);
-
+    public void run() throws IOException {
         while(true) {
 
             Socket socket = null;
 
             try {
                 // socket object modtager klient anmodninger
-
                 socket = serversock.accept();
 
                 System.out.println("En ny klient har tilsluttet sig" + socket);
@@ -68,7 +65,7 @@ public class Server {
 
 class ClientHandler extends Thread {
 
-    final DataInputStream dataInputStream;
+    final DataInputStream  dataInputStream;
     final DataOutputStream dataOutputStream;
     final Socket socket;
 

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ca96e6-f4a4-4971-b50f-e2b1271118c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chatserver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chatserver/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatserver/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chatserver/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatserver/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +53,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -65,9 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server (1)">
-    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chatserver.Server" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chatserver.Main" />
       <module name="ChatServer" />
       <extension name="coverage">
         <pattern>
@@ -86,9 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
