@@ -1,6 +1,5 @@
 package chatserver;
 
-import bg.tusofia.pik3.net.client.Client;
 
 /**
  * An interface describing server's basic functionality.
