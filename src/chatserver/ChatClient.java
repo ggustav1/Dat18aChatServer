@@ -8,6 +8,6 @@ public class ChatClient implements Runnable{
 
     @Override
     public void run() {
-
+        System.out.println("Test");
     }
 }
