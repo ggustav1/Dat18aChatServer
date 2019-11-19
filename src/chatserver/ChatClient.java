@@ -28,11 +28,15 @@ public class ChatClient implements Runnable{
     }
 
     private String readLine(){
+        String line = "";
+
         try {
-            String line = this.reader.readLine(); // reads a line of text
+            line = this.reader.readLine(); // reads a line of text
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        return line;
     }
 
     @Override
