@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ca96e6-f4a4-4971-b50f-e2b1271118c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chatserver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chatserver/ServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chatserver/SimpleClientImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chatserver/SystemClientImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chatserver/ChatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/META-INF/ChatServer.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/META-INF/ChatServer.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/ClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/chatserver/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chatserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatserver/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chatserver/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatserver/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
